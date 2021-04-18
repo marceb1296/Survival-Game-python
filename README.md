@@ -25,7 +25,7 @@ start.starting_game()
 
 #game commands
 print(start.enviroment())
-start.find_cabaña() #only command without print()
+start.find_cabin() #only command without print()
 print(start) #show player status
 
 #stop/finish game
