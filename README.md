@@ -1,10 +1,9 @@
 # Little survival game in python
 
-1. Goals:
-
-..1. Add more weapons (sword, arch...)
-..1. Enemies (animals, bosses, monsters...)
-..1. Add whatever you can imagine
+**Goals:**
+Add more weapons (sword, arch...)
+Enemies (animals, bosses, monsters...)
+Add whatever you can imagine
     
 
 How it works:
