@@ -1,6 +1,6 @@
 # Pequeño juego survival escrito en Python
 
-[English](/README.md)
+[Ingles](/README.md)
 
 ### **Metas:**
 
