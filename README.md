@@ -24,7 +24,8 @@ start = Start(name) #Start(name, "es") for spanish
 start.starting_game()
 
 #game commands
-start.enviroment()
+print(start.enviroment())
+start.find_cabaña() #only command without print()
 print(start) #show player status
 
 #stop/finish game
