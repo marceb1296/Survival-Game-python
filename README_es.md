@@ -11,6 +11,12 @@
 
 ### **Como funciona:**
 
+**Descarga**
+
+`git clone https://github.com/marceb1296/Survival-Game-python.git`
+
+- Extraiga la carpets Survival_Game a su directorio  de trabajo
+
 - Crea tu propio archivo
  
 ```
