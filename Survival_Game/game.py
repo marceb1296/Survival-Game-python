@@ -8,6 +8,15 @@ from random import randint
 
 class Game():
     
+    #IMPORTANT
+    #If you'll add new stuff, dont forget to add output string to lang.py
+    #Example lang.py
+    #Data = [
+    #    "Damage", #92
+    #    "You create a sword"]
+    #game.py
+    #The last index of lang.py is [92], so you'll set print()/return self.lang[92)    
+
     def __init__(self, name, lang):
         
         #Game init
