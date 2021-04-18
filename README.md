@@ -8,8 +8,8 @@ Goals:
 
 How it works:
 >Create your own file
- 
-ˋˋˋ
+
+ˋˋˋ 
 from Survival_Game.init import Start
 
 name = "My name"
