@@ -1,6 +1,6 @@
 # Little survival game in python
 
-**Goals:**
+### **Goals:**
 
 _Add more weapons (sword, arch...)
 Enemies (animals, bosses, monsters...)
@@ -12,6 +12,7 @@ Add whatever you can imagine_
 _Create your own file_
 
 
+```
 from Survival_Game.init import Start
 
 name = "My name"
@@ -28,9 +29,11 @@ print(start) #show player status
 
 #stop/finish game
 start.state = True
+```
 
 ### **Commands:**
 
+```
 enviroment() > Show enviroment (trees, stones, animals, cabin)
 tree_cut() > Cut trees
 stone_cut() > Chop stone
@@ -47,4 +50,4 @@ bonfire() > Build bonfire
 cook() > Cook
 eat() > Eat
 find_cabin() > Go to cabin
-
+```
