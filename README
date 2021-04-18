@@ -27,6 +27,7 @@ print(start) #show player status
 #stop/finish game
 start.state = True
 
+
 ˋˋˋ
 
 Commands:
