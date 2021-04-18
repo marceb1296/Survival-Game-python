@@ -1,19 +1,17 @@
-Little survival game in python
+# Little survival game in python
 
-Goals:
+1. Goals:
 
-Add more weapons (sword, arch...)
-Enemies (animals, bosses, monsters...)
-Add whatever you can imagine
+..1. Add more weapons (sword, arch...)
+..1. Enemies (animals, bosses, monsters...)
+..1. Add whatever you can imagine
     
 
 How it works:
 
 Create your own file
 
-'''
-hola
-'''
+
 from Survival_Game.init import Start
 
 name = "My name"
