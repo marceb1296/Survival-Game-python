@@ -17,7 +17,7 @@
 
 - Extract the dir Survival_Game to your work directory
 
-- Create your own file
+- In your file .py
 
 ```
 from Survival_Game.init import Start
