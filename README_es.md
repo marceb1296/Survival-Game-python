@@ -15,7 +15,7 @@
 
 `git clone https://github.com/marceb1296/Survival-Game-python.git`
 
-- Extraiga la ccarpeta urvival_Game a su directorio  de trabajo
+- Extraiga la carpeta Survival_Game a su directorio  de trabajo
 
 - En tu archivo .py
  
