@@ -7,7 +7,6 @@
 class Lang():
     
     def es(self):
-        #"Vida", "Health"
         data = [
             "Salud",
             "Hambre",
@@ -99,9 +98,9 @@ class Lang():
             "Cuchillo",
             "Pico",
             "Chimenea",
-            "Pintura", #90
+            "Pintura",
             "Cajonera",
-            "Daño"
+            "Daño" #92
         ]
         
         return data
@@ -200,8 +199,7 @@ class Lang():
             "Fireplace",
             "Painting",
             "Chest of drawers",
-            "Damage"
+            "Damage" #92
         ]
         
         return data
-
