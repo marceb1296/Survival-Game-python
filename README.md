@@ -1,15 +1,19 @@
 Little survival game in python
 
 Goals:
-> Add more weapons (sword, arch...)
-> Enemies (animals, bosses, monsters...)
-> Add whatever you can imagine
+
+Add more weapons (sword, arch...)
+Enemies (animals, bosses, monsters...)
+Add whatever you can imagine
     
 
 How it works:
->Create your own file
 
-ˋˋˋ 
+Create your own file
+
+'''
+hola
+'''
 from Survival_Game.init import Start
 
 name = "My name"
