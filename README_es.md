@@ -53,3 +53,7 @@ cook() > Cocinar
 eat() > Comer
 find_cabin() > Ir a cabaña
 ```
+
+### **Puedes probarlo en Telegram :)**
+
+[Telegram](https://t.me/MHgame_bot)
