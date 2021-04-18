@@ -53,3 +53,9 @@ cook() > Cook
 eat() > Eat
 find_cabin() > Go to cabin
 ```
+
+### ***You can tested in Telegram :)**
+
+> The game in telegram is only available in spanish!
+
+[Telegram](https://t.me/MHgame_bot)
