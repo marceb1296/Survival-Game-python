@@ -1,16 +1,17 @@
 # Little survival game in python
 
+[Spanish](/README_es.md)
+
 ### **Goals:**
 
-_Add more weapons (sword, arch...)
-Enemies (animals, bosses, monsters...)
-Add whatever you can imagine_
+- Add more weapons (sword, arch...)
+- Enemies (animals, bosses, monsters...)
+- Add whatever you can imagine
     
 
 ### **How it works:**
 
-_Create your own file_
-
+- Create your own file
 
 ```
 from Survival_Game.init import Start
