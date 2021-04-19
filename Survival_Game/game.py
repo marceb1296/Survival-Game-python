@@ -15,7 +15,7 @@ class Game():
     #    "Damage", #92
     #    "You create a sword"]
     #game.py
-    #The last index of lang.py is [92], so you'll set print()/return self.lang[92]    
+    #The last index of lang.py is [92], so you'll set print()/return self.lang[93]    
 
     def __init__(self, name, lang):
         
