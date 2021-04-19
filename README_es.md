@@ -32,7 +32,7 @@ start.starting_game()
 
 #comandos del juego
 print(start.enviroment())
-start.find_cabin #Unico comando que no necesita print()
+start.find_cabin() #Unico comando que no necesita print()
 print(start) #Mostrar status del jugador
 
 #detener/terminar juego
