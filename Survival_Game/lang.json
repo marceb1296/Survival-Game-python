@@ -1,11 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-
-class Lang():
-    
-    def es(self):
-        data = [
+{
+    "es": [
             "Salud",
             "Hambre",
             "Escudo",
@@ -98,13 +92,11 @@ class Lang():
             "Chimenea",
             "Pintura",
             "Cajonera",
-            "Daño" #92
-        ]
-        
-        return data
-    
-    def en(self):
-        data = [
+            "Daño",
+            "Nombre",
+            "Comando"
+        ],
+    "en": [
             "Health",
             "Hungry",
             "Shield",
@@ -197,7 +189,8 @@ class Lang():
             "Fireplace",
             "Painting",
             "Chest of drawers",
-            "Damage" #92
+            "Damage",
+            "Name",
+            "Command"
         ]
-        
-        return data
+}
