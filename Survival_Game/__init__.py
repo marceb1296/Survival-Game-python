@@ -6,8 +6,6 @@ import threading
 import time
 
 
-
-
 class Start(Game):
     
     def __init__(self, name, lang):
@@ -24,7 +22,7 @@ class Start(Game):
         
     def timing(self):
         while True:
-            # Udate every 10 sect
+            # Update every sec
             time.sleep(10)
             if self.state:
                 print("Game finished")

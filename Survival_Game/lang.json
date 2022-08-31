@@ -94,7 +94,10 @@
             "Cajonera",
             "Daño",
             "Nombre",
-            "Comando"
+            "Comando",
+            "Ayuda",
+            "Salir",
+            "Estado"
         ],
     "en": [
             "Health",
@@ -191,6 +194,9 @@
             "Chest of drawers",
             "Damage",
             "Name",
-            "Command"
+            "Command",
+            "Help",
+            "Exit"
+            "State"
         ]
 }
