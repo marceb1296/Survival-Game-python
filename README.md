@@ -2,18 +2,26 @@
 
 [Spanish](/README_es.md)
 
-### **Goals:**
+## **Goals:**
 
 - Add more weapons (sword, arch...)
 - Enemies (animals, bosses, monsters...)
 - Add whatever you can imagine
     
 
-### **How it works:**
+## **How it works:**
 
 **Clone the repository**
 
 `git clone https://github.com/marceb1296/Survival-Game-python.git`
+
+### **Quick start:**
+
+`cd Survival-Game-python`
+
+`python main.py`
+
+### **Custom start:**
 
 - Extract the dir Survival_Game to your work directory
 
@@ -24,11 +32,30 @@ from Survival_Game.init import Start
 
 name = "My name"
 
-#game init > name 
-start = Start(name) #Start(name, "es") for spanish
+# Load languajes
+with open('Survival_Game/lang.json', 'r') as F:
+    languaje = json.loads(F.read())
+
+get_lang = input('\nEnglish/en | Español/es?: ').lower()
+
+# Set languaje
+lang = languaje.get('en')
+
+if get_lang.startswith('es'):
+    lang = languaje.get('es')
+
+lang_start = lang.get("start")
+
+name = input("\n%s : " % lang_start[0])
+
+#game init > name & lang
+game = Start(name, lang)
 
 #start game
 start.starting_game()
+
+# do your custom stuffs 
+...
 
 #game commands
 print(start.enviroment())
@@ -39,7 +66,7 @@ print(start) #show player status
 start.state = True
 ```
 
-### **Commands:**
+## **Commands:**
 
 ```
 enviroment() > Show enviroment (trees, stones, animals, cabin)
@@ -59,9 +86,3 @@ cook() > Cook
 eat() > Eat
 find_cabin() > Go to cabin
 ```
-
-### **You can tested in Telegram :)**
-
-> The game in telegram is only available in spanish!
-
-[Telegram](https://t.me/MHgame_bot)
