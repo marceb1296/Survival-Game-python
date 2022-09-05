@@ -71,7 +71,7 @@ start.state = True
 ```
 enviroment() > Show enviroment (trees, stones, animals, cabin)
 tree_cut() > Cut trees
-stone_cut() > Chop stone
+stone_chop() > Chop stone
 b_axe_wood() > Build wooden axe
 b_axe_stone() > Build stone axe
 b_pickaxe_stone() > Build pickaxe
