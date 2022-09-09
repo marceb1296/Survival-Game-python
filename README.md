@@ -28,7 +28,7 @@
 - In your file .py
 
 ```
-from Survival_Game.init import Start
+from Survival_Game import Start
 
 name = "My name"
 
